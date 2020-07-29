@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def RSI(X, window, graph):
-    
+
     N = len(X)
     UpDiff = np.zeros(N - 1)
     DownDiff = np.zeros(N - 1)
